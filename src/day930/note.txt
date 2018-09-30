@@ -1,0 +1,32 @@
+方法
+
+	构造方法
+		有参构造
+		public 类名(String name){
+			this.name = name;
+		}
+		
+		无参构造
+		public 类名(){
+
+		}
+		在每一次声明对象时，首选调用其父类的无参构造
+		，其次调用本类的构造方法
+		
+	静态方法
+		加上static 关键字的方法
+	普通方法
+		public void name(){
+			
+		}
+	带有返回值的方法   return  返回
+		public 返回值类型 方法名(){
+			
+			return 对应类型的返回值;
+		}
+	私有方法
+		private void name(){
+			//只能本类调用
+			
+		}
+	
